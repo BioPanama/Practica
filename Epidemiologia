@@ -1,4 +1,5 @@
 #Epidemiologia  Curso 
+# Datos utilizados: https://github.com/BioPanama/Practica/blob/main/Base_simulada_dengue_Piura_SE01_32_2026.xlsx
 # se debe installar los paquetes necesarios para poder correr el script
 library(readxl)
 library(janitor)
