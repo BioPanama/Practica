@@ -1,10 +1,10 @@
 #Epidemiologia  Curso 
-# se debe installar los paquetes necesarios para poder correr el script
+# se debe instalar los paquetes necesarios para poder correr el script
 library(readxl)
 library(janitor)
 library(dplyr)
-getwd()#Verificar donde estoy trabajando
-setwd("C:/Users/Gabriel/Documents/Rstudio")
+getwd()#Verificar dónde estoy trabajando
+setwd() # ubicación de donde se va trabajar por lo general es el escritorio 
 
 # 1.1.Preparar la sesión e importar la base
 
