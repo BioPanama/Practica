@@ -3,13 +3,12 @@
 library(readxl)
 library(janitor)
 library(dplyr)
-getwd()#Verificar dónde estoy trabajando
-setwd() # ubicación de donde se va trabajar por lo general es el escritorio 
+
 
 # 1.1.Preparar la sesión e importar la base
 
 library(readxl)
-dengue <- read_excel("Base_simulada_dengue_Piura_SE01_32_2026.xlsx")
+dengue <- read_excel("Base_simulada_dengue_Piura_SE01_32_2026.xlsx") # Primero se debe descargar el Excel en la misma carpeta que está la script
 View(dengue) #ver la base de datos
 clean_names(dengue) #limpiar nombres de variables
 
